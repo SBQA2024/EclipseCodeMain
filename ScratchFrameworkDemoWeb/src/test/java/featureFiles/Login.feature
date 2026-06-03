@@ -1,4 +1,4 @@
-@Sanity
+@Smoke
 
 Feature: Login Functionality 
 

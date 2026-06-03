@@ -16,7 +16,7 @@ public class AddCustomerStepDefination extends BaseClass{
 	
 	AddNewCustomer obj1; 
 	
-	
+	WebDriver driver = BaseClass.getDriver();
 	
 	@Given("user clicked on New Customer link")
 	public void user_clicked_on_new_customer_link() {
