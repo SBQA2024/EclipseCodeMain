@@ -1,4 +1,4 @@
-@Regression
+@Sanity
 
 Feature: User is Adding a customer 
 

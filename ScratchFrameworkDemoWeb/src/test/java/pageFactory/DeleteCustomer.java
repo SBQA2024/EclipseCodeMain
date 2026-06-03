@@ -31,13 +31,7 @@ public class DeleteCustomer {
 	 @FindBy(xpath="//input[@name='cusid']")
 	 WebElement custid;
 	 
-	 public void entercustid() {
-		 try {
-			custid.sendKeys(FetchDataFromProperties.FetchDataFromPropertiesfile().getProperty("custid"));
-		 } catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		 }
+	 public void entercustid() throws FileNotFoundException {
 	 }
 		 @FindBy(xpath="//input[@name='AccSubmit']")
 		 WebElement Submitbtn;
